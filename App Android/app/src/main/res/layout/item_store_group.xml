@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iconview_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:src="@drawable/ic_launcher_foreground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <TextView
+            android:id="@+id/title_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:text="Store title"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@id/iconview_store"
+            app:layout_constraintTop_toTopOf="@id/iconview_store"
+            app:layout_constraintBottom_toBottomOf="@id/iconview_store"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

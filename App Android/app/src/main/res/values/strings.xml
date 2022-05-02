@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Purchases</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="store_list">Lista de Lojas</string>
+    <string name="registered_stores_title">Lojas Cadastradas</string>
+    <string name="register_store_title">Cadastrar Loja</string>
+</resources>
